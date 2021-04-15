@@ -12,7 +12,17 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
 
+
+
+
+
   <body>
-    <%= yield %>
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col">
+               <%= yield %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
